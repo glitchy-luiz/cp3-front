@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: block;
+    background-color: aqua;
+    width: 980px;
+    height: 140px;
+    margin-bottom: 15px;
+}
+.flex{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.sidebar{
+    width: 270px;
+    height: 450px;
+    background-color: blue;
+    margin-right: 15px;
+}
+main{
+    width: 690px;
+    height: 450px;
+    background-color: blueviolet;
+}
+
+footer{
+    display: block;
+    width: 980px;
+    height: 70px;
+    background-color: brown;
+}
